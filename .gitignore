@@ -1,0 +1,25 @@
+# MaC Specifics #
+.DS_Store
+
+# Eclipse #
+*.project
+*.settings
+*.classpath
+*/bin/
+*.springBeans
+
+# Build #
+build
+target
+reports
+local.*
+classes
+
+# Gradle #
+.gradle
+
+commitnumber.properties
+
+*.class
+
+/bin/
