@@ -67,7 +67,6 @@ public class LocalCacheSeatRepository implements SeatRepository {
 	
 	@PreDestroy
 	public void destroyCache() {
-		ALL_SEATS.clear();
 		holdSeats.clear();
 		reservedSeats.clear();
 	}
